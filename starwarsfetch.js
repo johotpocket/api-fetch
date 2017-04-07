@@ -16,7 +16,7 @@ const getCharacter = (i) =>
 
 module.exports = (app) => {
   app.get('/api/starwars', (req, res) => {
-    Promise.all([getCharacter(1), getCharacter(2)])
+    Promise.all([getCharacter(1), getCharacter(2), getCharacter(3), getCharacter(4)])
       .then(data => {
         console.log(data)
         res.json(data);
