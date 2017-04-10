@@ -28,7 +28,6 @@ var app = new Vue({
       console.log("hello")
     },
     addTodo: function(e){
-      e.preventDefault()
       this.todos.push({ text: this.newTodo })
       this.newTodo = ""
     }

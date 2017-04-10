@@ -27,7 +27,7 @@
       </ol>
 
       <h4> add todo </h4>
-      <form v-on:submit="addTodo">
+      <form v-on:submit.prevent="addTodo">
         <input v-model="newTodo" type="text" placeholder="todos">
         <button type="submit">create</button>
       </form>
