@@ -6,7 +6,7 @@ class CharacterApp extends Component {
   render() {
     return (
       <div className="container">
-        <div className="jumbotron">
+        <div>
            <Jumbo/>
         </div>
         <div>

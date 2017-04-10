@@ -2,7 +2,7 @@ import React from 'react'
 import CharacterCard from './charactercard'
 
 const CharactersList = (props) =>
-  <div>
+  <div className="charlist">
     {
     props.chars.map((i) => <CharacterCard {...i}/>)
    }
