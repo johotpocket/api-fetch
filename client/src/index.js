@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JokesApp from './jokes';
+import CharacterApp from './starwarsapp';
 import './index.css';
 
 ReactDOM.render(
-  <JokesApp />,
+  <CharacterApp />,
   document.getElementById('root')
 );

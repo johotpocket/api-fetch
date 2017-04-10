@@ -35,6 +35,10 @@ app.get('/api/jokes', function(req, res){
     });
 });
 
+app.get('/', function(req, res){
+  res.sendFile('/index.html');
+})
+
 
 app.listen(3001, function(){
   console.log("Server running".rainbow);
