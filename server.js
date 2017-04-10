@@ -9,6 +9,8 @@ const routes = require('./starwarsfetch');
 
 routes(app);
 
+app.use(express.static('public'));
+
 app.get('/api/cats', function(req, res){
   fetch('http://catfacts-api.appspot.com/api/facts?number=10')
     .then(blob => blob.json())

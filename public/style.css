@@ -1,0 +1,34 @@
+body {
+  background-color: green;
+}
+
+.flex-container {
+  display: flex;
+  border: solid 3px magenta;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+}
+
+.flex-item {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+}
+
+.mini-flex {
+  color: red;
+}
+
+.one {
+  height: 400px:
+}
+
+/*.four {
+  flex-grow: 2;
+}*/
